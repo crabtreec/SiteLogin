@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {{>_header}}
+  <body>
+    <div class="container">
+      {{#user}}
+      <p class="loggedIn">Welcome {{name}}.</p>
+      <br>
+      <br>
+      <p>You are now logged in.</p>
+      <form class="logout" action="/logout" method="post">
+        <input id="hmph" type="submit" name="submit" value="logout" onclick='change(this)'>
+      </form>
+      {{/user}}
+    </div>
+  </body>
+</html>

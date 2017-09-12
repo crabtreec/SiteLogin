@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+body p {
+  font-size: 2em;
+}
+
+p.loggedIn{
+  font-size: 40px;
+}
+
+input {
+  background-color: white;
+  box-shadow: none;
+  border: 1px solid #AFAEAE;
+  color: black;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+input.login.submit{
+  background-color: lightgrey;
+}
+
+input.submit{
+  background-color: lightgrey;
+}
+
+input#logout{
+  background-color: lightgrey;
+}
